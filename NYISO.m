@@ -2,6 +2,8 @@ summary=zeros(10,11);
 s=1;
 result={};
 operation={};
+
+% Monthly Natural Gas Price data form 
 ng_price=readtable('NG_price.csv'); 
 ng_price.Month=datetime(ng_price.Month,'Format','MMM yy');
 
